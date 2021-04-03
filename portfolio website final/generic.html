@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Data Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo">
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/karina-nathalie/" class="icon brands fa-linkedin"><span class="label">Linked in</span></a></li>
+										<li><a href="https://www.instagram.com/karina.nathalie/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://github.com/Karinanathalie/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Data Analysis</h1>
+									</header>
+
+									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+
+									<p>Data sets usually contain many crucial hidden patterns that need to be recognized. To discover the unexpected trends in data, analyzing and taking a scientific approach is the key. With data analysis, we can generate some statistics and get several relevant insights based on the data. This essential information will help us to decide the suitable conclusions and plan creative solutions. In fact, the goal is to turn data into business decisions.</p>
+									<p>To fulfill my curiosity and widen my knowledge about the importance of data analysis, I searched a raw dataset from kaggle.com   
+									<a href ="https://www.kaggle.com/twinkle0705/mental-health-and-suicide-rates?select=Human+Resources.csv"> https://www.kaggle.com/twinkle0705/mental-health-and-suicide-rates?select=Human+Resources.csv</a> and started to explore it by Jupiter Notebook.</a> Overall, the source above consist of several data related to suicide rates of age groups in different countries along with Health Facility.</p>
+
+									<hr class="major" />
+
+									<h2>What Can We Learn From The Data and How Can It Be Used?</h2>
+									<p>According to the files attached, several data can be gathered, such as :</p>
+									<ul>
+										<li>Age-standardized suicide rates for different years</li>
+										<li>Suicide rates from different age groups</li>
+										<li>Facilities mental health-related that were available</li>
+										<li>Human resources mental health-related that were available</li>
+									</ul>
+									<p>From these data, the relation between the factors of suicide rates, such as age, gender, facilities, and human resources, can be known. Therefore, the solution to decrease numbers of suicide rates can be decided. In order to know the correlation between one aspect and another factor, the diagram can be used to help.</p>
+
+									<hr class="major" />
+
+									<h2>Identify The Correlation Between Suicide Rates in Particular Year and Gender</h2>
+									<a href="#" class="image"><img src="images/diagram_port1.png" width=100% alt="" /></a><br><br>
+									<p>After grouping and filtering the data frame, we can rank the rates of suicide rates for every country between four different years based on gender. With these methods, we can discover which year has the most country reaching a peak of suicide rate. Therefore, according to the visualization and calculation, we can conclude that 2000 has the highest rates for suicide, and 2016 has the lowest rates for all gender, either both sexes, males only, or females only.</p>
+									<p>Besides, we can also point out the most and least dominant countries in 2016. With finding the minimum and maximum value, several conclusion can be decided:</p>
+									<ul>
+										<li>Guyana has the highest suicide rate for both sexes, and Barbados has the lowest rate</li>
+										<li>Russian Federation has the highest suicide rate for males only, and 'Antigua and Barbuda' has the lowest rate</li>
+										<li>Lesotho has the highest suicide rate for females only, and Barbados has the lowest rate.</li>
+									</ul>
+									
+									<hr class="major" />
+
+									<h2>Identify The Correlation Between Suicide Rates of Particular Gender and Age</h2>
+									<a href="#" class="image"><img src="images/diagram2_port1.png" width=100% alt="" /></a><br><br>
+									<p>Not only gender, but we can also identify the correlation between suicide rates and age. Same with the previous methods, after grouping and filtering the data frame, we can rank the rates of suicide rates for every country between gender based on the range of ages. Hence, we can discover which age group has the most country reaching a peak of suicide rate. Therefore, according to the visualization and calculation, we can conclude that for all gender, either both sexes, males only, or females only, age 80 above has the highest rates of suicide, and 10 to 19 has the lowest rates.</p>
+									
+									<hr class="major" />
+
+									<h2>Case - Should We Increase The Number of Certain Facilities to Decrease The Suicide Rates? </h2>
+									<a href="#" class="image"><img src="images/plot_fac.png" width=100% alt="" /></a><br><br>
+									<p>From the conclusion that has been decided earlier about the most and least dominant countries in 2016, we can analyze it more deeply. To be precise, we want to identify the correlation between the rates and facilities based on the most and least dominant countries. According to the visualization and calculation, 'Antigua and Barbuda', which has the lowest rate of suicide for males, has a higher rank in facilities, precisely Hospital, than Guyana, which has the highest suicide rate for both sexes. Therefore, increasing the number of facilities could be one of the solutions. </p>
+									<p>However, there is no further facility data related to other dominant countries, such as Russian Federation, Lesotho, and Barbados. Moreover, 'Antigua and Barbuda' has only one data, which is merely related to mental hospitals. Therefore, we can't conclude that this pattern always happens.</p>
+									
+									<hr class="major" />
+
+									<h2>Case - Should We Improve The Human Resources to Decrease The Suicide Rates?</h2>
+									<a href="#" class="image"><img src="images/plot_res.png" width=100% alt="" /></a><br><br>
+									<p>Similar to the facility data analysis, we also want to identify the correlation between the rates and human resources based on the most and least dominant countries. According to the visualization and calculation, 'Antigua and Barbuda', which has the lowest rate of suicide for males, has a higher rank in Social Workers than Guyana, which has the highest suicide rate for both sexes. Therefore, improving human resources could be one of the solutions.  </p>
+									<p>Nevertheless, since there is no human resources data related to other dominant countries such as Russian Federation, Lesotho, and Barbados, we can't conclude that this pattern always happens.</p>
+									
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li>
+											<span class="opener">Portfolio</span>
+											<ul>
+												<li><a href="generic.html">Data Analysis</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Please reach me out! Send me a message and I'll get back to you as soon as possible.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:karinanathalie2@gmail.com">karinanathalie2@gmail.com</a></li>
+										<li class="icon brands fa-instagram"><a href="https://www.instagram.com/karina.nathalie/">@karina.nathalie</a></li>
+										<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/karina-nathalie/">Karina Nathalie</a></li><br />
+									</ul>
+								</section>
+
+							<!-- Footer -->
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
